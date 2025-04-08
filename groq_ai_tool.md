@@ -15,12 +15,12 @@ Before we start coding, you'll need access to the **Groq API**. Here’s how to 
 
 ## **🖥️ Step 2: Build Your AI Chatbot**  
 
-Replace `'api_key'` with your actual **Groq API key**, then run this script:  
+Replace `'YOUR API KEY HERE'` with your actual **Groq API key**, then run this script:  
 
 ```python
 import groq
 
-api_key = ""  # Replace with your actual API key
+api_key = "YOUR API KEY HERE"  # Replace with your actual API key
 
 # Initialize Groq API client
 client = groq.Client(api_key=api_key)
